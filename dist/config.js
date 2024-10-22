@@ -1,3 +1,4 @@
+// config.js
 const Um = {
     logoUrl: "https://img.picui.cn/free/2024/09/26/66f57338841ea.png",
     title: "Cancer Health Equity + AI/ML Lab supported by AIM-AHEAD Program for AI Readiness (PAIR)",
