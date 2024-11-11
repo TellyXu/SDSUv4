@@ -5,17 +5,18 @@ import Header from "../../components/header/Index";
 import Footer from "../../components/footer/Index";
 
 
-import ucsd_bg1 from "../../assets/view/sdsuphotos/11.png";
-import ucsd_bg2 from "../../assets/view/sdsuphotos/22.jpg";
-import ucsd_bg3 from "../../assets/view/sdsuphotos/33.jpg";
-import ucsd_bg4 from "../../assets/view/sdsuphotos/44.jpg";
-import ucsd_bg5 from "../../assets/view/sdsuphotos/55.jpeg";
 
 const bg2 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/wIAAgMBAAirR9cAAAAASUVORK5CYII=";
 
-import TMedit from "../../assets/view/sdsutwo.png";
+import background1 from "../../assets/view/background1.jpg";
+import background2 from "../../assets/view/background2.jpg";
+import background3 from "../../assets/view/background3.jpg";
+import background4 from "../../assets/view/background4.jpg";
+import background5 from "../../assets/view/background5.jpg";
+const backgrounds = [background1, background2, background3, background4, background5];
 
-import bIMG_7003_TMedit from "../../assets/view/sdsutwo.png";
+import LatestNews from "../../assets/view/LatestNews.png";
+import Emaillistpic from "../../assets/view/Emaillistpic.png";
 
 import Scrollreveal from "scrollreveal"
 import { CSSTransition } from 'react-transition-group';
@@ -24,6 +25,7 @@ import icon1 from "../../assets/view/icon1.jpg"
 import icon2 from "../../assets/view/icon2.jpg"
 import icon1Bg from "../../assets/view/icon1Bg.jpg"
 import icon2Bg from "../../assets/view/icon2Bg.jpg"
+import linkedinlogo from "../../assets/view/linkedin_logo.png"
 import googlescholar from "../../assets/view/scholar_logo_64dp.png"
 
 import "./Index.css"
@@ -128,7 +130,7 @@ function Index() {
                 <div style={{ backgroundColor: bgColor }}>
                     <div id="slideshow" className="absolute w-full h-full top-0 -z-10">
                         {
-                            data.header.bannerUrls.map((item, index) => (
+                            backgrounds.map((item, index) => (
                                 <img key={item + index} className="slide absolute w-full h-full object-cover opacity-0" src={item}
                                     alt="Background 1" />
                             ))
@@ -165,7 +167,7 @@ function Index() {
                         <div className='relative mt-8 flex'>
                             <div
                                 className='w-8/12 left-content text-left border-r pr-20 box-border border-r-white border-opacity-20'>
-                                <img className='w-full shadow-primary' src={TMedit} />
+                                <img className='w-full shadow-primary' src={LatestNews} />
                                 <p style={{
                                     fontFamily: 'gentona',
                                     fontWeight: 200,
@@ -321,7 +323,7 @@ function Index() {
                                         className='flex items-center absolute left-52 top-28 transform -translate-x-1/2'>
                                         <div className='w-24 h-24 flex p-4 rounded-full overflow-hidden'
                                             style={{ background: "#eac642" }}>
-                                            <img className='w-full' src={icon1} />
+                                            <img className='w-full' src={linkedinlogo} />
                                             <div className="absolute left-1/2 transform bg-yellow-400 z-30" style={{
                                                 width: "1px",
                                                 height: "8rem",
@@ -329,17 +331,19 @@ function Index() {
                                                 bottom: "-10rem"
                                             }}></div>
                                         </div>
-                                        <p className='ml-4 text-3xl border-b-4 hover:border-transparent text-white border-solid border-yellow-400 font-bold cursor-pointer'>Resources</p>
+                                        <p
+                                            onClick={_ => window.open(data.main.regionTwo.linkedin.link)}
+                                            className='ml-4 text-3xl border-b-4 hover:border-transparent text-white border-solid border-yellow-400 font-bold cursor-pointer'>Linkedin</p>
                                     </div>
                                     <div className='text-left p-8'>
                                         <p>
-                                            {data.main.regionTwo.resources.introducePrimary}
+                                            {data.main.regionTwo.linkedin.introducePrimary}
                                         </p>
-                                        <p onClick={_ => window.open(data.main.regionTwo.resources.introduceSecondaryLink)}
+                                        <p onClick={_ => window.open(data.main.regionTwo.linkedin.introduceSecondaryLink)}
                                             className='mt-4 flex items-center'>
                                             <span className='text-lg' style={{ color: "#4aa1d4" }}>
                                                 {
-                                                    data.main.regionTwo.resources.introduceSecondary
+                                                    data.main.regionTwo.linkedin.introduceSecondary
                                                 }
                                             </span>
                                             <span className="animated_circle ml-2" aria-hidden="true">
@@ -413,7 +417,7 @@ function Index() {
                             </div>
                         </div>
                         <div className='w-6/12'>
-                            <img className='w-full shadow-primary' src={bIMG_7003_TMedit} />
+                            <img className='w-full shadow-primary' src={Emaillistpic} />
                         </div>
                     </div>
                 </div>

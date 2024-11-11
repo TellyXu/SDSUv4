@@ -10,7 +10,7 @@ function Index() {
         <footer className='lg:py-10 lg:px-20 p-4' style={{ background: "#4aa1d4" }}>
             <div className='block lg:flex'>
                 <div className='w-full lg:w-5/12 mb-8 lg:mb-0 flex justify-center md:justify-start'>
-                    <img src={data.footer.logoUrl} alt="AI Health Equity Logo" style={{ height: '60px', width: 'auto' }} />
+                    <img src={logoaimahead} alt="AI Health Equity Logo" style={{ height: '60px', width: 'auto' }} />
                 </div>
 
                 <div className='w-full lg:w-7/12 flex items-center'>

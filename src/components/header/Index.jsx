@@ -6,6 +6,7 @@ import "./Index.css"
 
 import data from "../../index.json"
 
+
 function Index() {
     const [is_scroll, set_is_scroll] = useState(false)
 
@@ -21,7 +22,7 @@ function Index() {
         <div className="fixed top-0 z-40 w-full text-white bg-opacity-20 transition-all duration-500" style={{ background: is_scroll ? "#4aa1d4" : "" }}>
             <header className="py-6 px-20 flex">
                 <div className="w-1/12">
-                    <img src={data.header.logoUrl} alt="AI Health Equity Logo" style={{height: '60px', width: 'auto'}}/>
+                    <img src={logoaimahead} alt="AI Health Equity Logo" style={{height: '60px', width: 'auto'}}/>
                 </div>
                 <div className="w-10/12 flex gap-x-4 items-center">
                     <p style={{fontFamily: 'gentona', fontWeight: 500}}>
