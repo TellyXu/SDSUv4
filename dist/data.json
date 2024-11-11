@@ -1,0 +1,70 @@
+{
+    "header": {
+        "title": "Cancer Health Equity + AI/ML Lab supported by AIM-AHEAD Program for AI Readiness (PAIR)",
+        "main": {
+            "titlePrimary": "Cancer Health Equity + AI/ML Lab",
+            "titleSecondary": "supported by AIM-AHEAD Program for AI Readiness (PAIR)"
+        }
+    },
+    "main": {
+        "regionOne": {
+            "title": "The Latest",
+            "left": {
+                "text": "Cancer Health Equity + AI/ML Lab supported by AIM-AHEAD Program for AI Readiness (PAIR)",
+                "textSubsidiary": "TBD"
+            },
+            "right": {
+                "one": {
+                    "text-1-1": "10+",
+                    "text-1-2": "Courses Offered",
+                    "text-1-3": "Our Courses on AIM-AHEAD"
+                },
+                "two": {
+                    "text-2-1": "10+",
+                    "text-2-2": "Partner Organizations",
+                    "text-2-3": "We collaborate with a vast array of partners across all states and union territories"
+                },
+                "three": {
+                    "text-3-1": "100+",
+                    "text-3-2": "San Diego State University",
+                    "text-3-3": "Our multidisciplinary faculty are committed to advancing AIMAHEAD"
+                },
+                "GoogleScholarLink": "https://scholar.google.com",
+                "moreBtnLink": "https://www.google.com"
+            }
+        },
+        "regionTwo": {
+            "linkedin": {
+                "link": "https://www.linkedin.com",
+                "introducePrimary": "Read the latest research news, and learn about our affiliated Centers and Institutes",
+                "introduceSecondary": "Linkedin for Our Lab",
+                "introduceSecondaryLink": "https://www.linkedin.com"
+            },
+            "education": {
+                "link": "https://www.google.com/search?q=education",
+                "introducePrimary": "Discover student opportunities and connections."
+            }
+        },
+        "regionThree": {
+            "titlePrimary": "Cancer Health Equity + AI/ML Lab supported by Program for AI Readiness(PAIR)",
+            "titleSecondary": "JOIN THE EMAIL LIST",
+            "buttonText": "Join Now",
+            "joinNowLink": "https://www.google.com/search?q=joinNowLink"
+        },
+        "regionFour": {
+            "titlePrimary": "Join Us",
+            "titleSecondary": "Join Our Lab, Changing the World",
+            "buttonText": "Join Us Now",
+            "joinUsNowLink": "https://www.google.com/search?q=joinUsNowLink"
+        }
+    },
+    "footer": {
+        "list1": "CONTACT US",
+        "list1Link": "https://www.google.com/search?q=list1Link",
+        "list2": "SIGN UP FOR NEWS",
+        "list2Link": "https://www.google.com/search?q=list2Link",
+        "list3": "SAN DIEGO STATE UNIVERSITY",
+        "list3Link": "https://www.google.com/search?q=list3Link",
+        "copyright": "AIM-AHEAD Coordinating Center is funded by NIH, Agreement No.: 1OT2OD032581-01"
+    }
+}
