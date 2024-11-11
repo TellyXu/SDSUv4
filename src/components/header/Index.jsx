@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import { useNavigate } from "react-router-dom"
 
-import logoaimahead from "../../assets/components/header/aimahead-logo-white-lg.png"
+import logoaimahead from "../../../public/aimahead-logo-white-lg.png"
 import "./Index.css"
 
-import data from "../../index.json"
+import data from "../../../public/data.json"
 
 
 function Index() {

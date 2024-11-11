@@ -8,30 +8,30 @@ import Footer from "../../components/footer/Index";
 
 const bg2 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/wIAAgMBAAirR9cAAAAASUVORK5CYII=";
 
-import background1 from "../../assets/view/background1.jpg";
-import background2 from "../../assets/view/background2.jpg";
-import background3 from "../../assets/view/background3.jpg";
-import background4 from "../../assets/view/background4.jpg";
-import background5 from "../../assets/view/background5.jpg";
+import background1 from "../../../public/view/background1.jpg";
+import background2 from "../../../public/view/background2.jpg";
+import background3 from "../../../public/view/background3.jpg";
+import background4 from "../../../public/view/background4.jpg";
+import background5 from "../../../public/view/background5.jpg";
 const backgrounds = [background1, background2, background3, background4, background5];
 
-import LatestNews from "../../assets/view/LatestNews.png";
-import Emaillistpic from "../../assets/view/Emaillistpic.png";
+import LatestNews from "../../../public/view/LatestNews.png";
+import Emaillistpic from "../../../public/view/Emaillistpic.png";
 
 import Scrollreveal from "scrollreveal"
 import { CSSTransition } from 'react-transition-group';
 
 import icon1 from "../../assets/view/icon1.jpg"
-import icon2 from "../../assets/view/icon2.jpg"
-import icon1Bg from "../../assets/view/icon1Bg.jpg"
-import icon2Bg from "../../assets/view/icon2Bg.jpg"
-import linkedinlogo from "../../assets/view/linkedin_logo.png"
-import googlescholar from "../../assets/view/scholar_logo_64dp.png"
+import icon2 from "../../../public/view/icon2.jpg"
+import icon1Bg from "../../../public/view/icon1Bg.jpg"
+import icon2Bg from "../../../public/view/icon2Bg.jpg"
+import linkedinlogo from "../../../public/view/linkedin_logo.png"
+import googlescholar from "../../../public/view/scholar_logo_64dp.png"
 
 import "./Index.css"
 
 
-import data from "../../index.json"
+import data from "../../../public/data.json"
 
 
 console.log('data', data)
