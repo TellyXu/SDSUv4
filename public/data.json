@@ -52,10 +52,18 @@
             "joinNowLink": "https://www.google.com/search?q=joinNowLink"
         },
         "regionFour": {
-            "titlePrimary": "Join Us",
-            "titleSecondary": "Join Our Lab, Changing the World",
-            "buttonText": "Join Us Now",
-            "joinUsNowLink": "https://www.google.com/search?q=joinUsNowLink"
+            "titlePrimary": "Contact Us",
+            "titleSecondary": "Get in Touch, Let’s Make an Impact Together",
+            "buttonText": "Contact Us Now",
+            "email": {
+                "address": "ugeorge@sdsu.edu",
+                "subject": "AIHE Lab Webpage - Contact Request",
+                "body": {
+                    "greeting": "Dear Dr. George",
+                    "content": "I am interested in contacting you to learn more about your AIHE lab.",
+                    "closing": "Best regards,"
+                }
+            }
         }
     },
     "footer": {

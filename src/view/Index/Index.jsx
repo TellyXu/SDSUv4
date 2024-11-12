@@ -308,7 +308,7 @@ function Index() {
                          style={{width: "1px", height: "8rem", bottom: "44rem"}}></div>
 
                     <div className="w-11/12 relative z-20 text-center mx-auto text-black">
-                        <p onClick={_ => window.open(data.main.regionTwo.education.link)}
+                        <p
                            className="m-0 text-6xl font-bold text-center"
                            style={{fontFamily: 'quadon', fontWeight: 400}}>Resources</p>
 
@@ -428,8 +428,11 @@ function Index() {
                         <p className='text-5xl font-bold' style={{ color: "#2e271f" }}>{data.main.regionFour.titlePrimary}</p>
                         <p className='mt-4 text-xl text-black'>{data.main.regionFour.titleSecondary}</p>
                         <div
-                            onClick={_ => window.open(data.main.regionFour.joinUsNowLink)}
-                            className='w-44 mx-auto mt-8 btn2 p-3 flex justify-center items-center cursor-pointer transition-all'
+                            onClick={() => {
+                                const email = data.main.regionFour.email;
+                                const mailtoLink = `mailto:${email.address}?subject=${encodeURIComponent(email.subject)}&body=${encodeURIComponent(email.body.greeting + "\n\n" + email.body.content + "\n\n" + email.body.closing)}`;
+                                window.open(mailtoLink);
+                            }}                            className='w-44 mx-auto mt-8 btn2 p-3 flex justify-center items-center cursor-pointer transition-all'
                             style={{ backgroundColor: "#4aa1d4" }}
                             onMouseEnter={(e) => e.currentTarget.style.backgroundColor = "#1e3a8a"} // blue-900
                             onMouseLeave={(e) => e.currentTarget.style.backgroundColor = "#4aa1d4"} // #4aa1d4
