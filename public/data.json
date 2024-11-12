@@ -34,22 +34,25 @@
             }
         },
         "regionTwo": {
-            "linkedin": {
-                "link": "https://www.linkedin.com",
+            "part1": {
+                "title": "Social Media",
                 "introducePrimary": "Read the latest research news, and learn about our affiliated Centers and Institutes",
-                "introduceSecondary": "Linkedin for Our Lab",
-                "introduceSecondaryLink": "https://www.linkedin.com"
+                "socialmedia1text": "Linkedin for Our Lab",
+                "socialmedia1link": "https://www.linkedin.com",
+                "socialmedia2text": "X for Our Lab",
+                "socialmedia2link": "https://www.x.com"
             },
-            "education": {
+            "part2": {
+                "title": "Education",
                 "link": "https://www.google.com/search?q=education",
                 "introducePrimary": "Discover student opportunities and connections."
             }
         },
         "regionThree": {
-            "titlePrimary": "Cancer Health Equity + AI/ML Lab supported by Program for AI Readiness(PAIR)",
-            "titleSecondary": "JOIN THE EMAIL LIST",
-            "buttonText": "Join Now",
-            "joinNowLink": "https://www.google.com/search?q=joinNowLink"
+            "titlePrimary": "Program for AI Readiness(PAIR)",
+            "titleSecondary": "Learn more about PAIR and how you can get involved",
+            "buttonText": "Learn More",
+            "joinNowLink": "https://www.aim-ahead.net/pair"
         },
         "regionFour": {
             "titlePrimary": "Contact Us",

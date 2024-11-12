@@ -1,5 +1,4 @@
 import { useState, useRef, useEffect } from 'react';
-import { useNavigate } from "react-router-dom";
 
 import Header from "../../components/header/Index";
 import Footer from "../../components/footer/Index";
@@ -25,6 +24,7 @@ import icon1 from "../../assets/view/icon1.jpg"
 import icon2 from "../../../public/view/icon2.jpg"
 import icon1Bg from "../../../public/view/icon1Bg.jpg"
 import icon2Bg from "../../../public/view/icon2Bg.jpg"
+import media from "../../../public/view/media.png"
 import linkedinlogo from "../../../public/view/linkedin_logo.png"
 import googlescholar from "../../../public/view/scholar_logo_64dp.png"
 
@@ -323,7 +323,7 @@ function Index() {
                                         className='flex items-center absolute left-52 top-28 transform -translate-x-1/2'>
                                         <div className='w-24 h-24 flex p-4 rounded-full overflow-hidden'
                                             style={{ background: "#eac642" }}>
-                                            <img className='w-full' src={linkedinlogo} />
+                                            <img className='w-full' src={media} />
                                             <div className="absolute left-1/2 transform bg-yellow-400 z-30" style={{
                                                 width: "1px",
                                                 height: "8rem",
@@ -332,33 +332,56 @@ function Index() {
                                             }}></div>
                                         </div>
                                         <p
-                                            onClick={_ => window.open(data.main.regionTwo.linkedin.link)}
-                                            className='ml-4 text-3xl border-b-4 hover:border-transparent text-white border-solid border-yellow-400 font-bold cursor-pointer'>Linkedin</p>
+
+                                            className='ml-4 text-3xl border-b-4 hover:border-transparent text-white border-solid border-yellow-400 font-bold cursor-pointer'>{data.main.regionTwo.part1.title}</p>
                                     </div>
                                     <div className='text-left p-8'>
                                         <p>
-                                            {data.main.regionTwo.linkedin.introducePrimary}
+                                            {data.main.regionTwo.part1.introducePrimary}
                                         </p>
-                                        <p onClick={_ => window.open(data.main.regionTwo.linkedin.introduceSecondaryLink)}
-                                            className='mt-4 flex items-center'>
-                                            <span className='text-lg' style={{ color: "#4aa1d4" }}>
+                                        <p onClick={_ => window.open(data.main.regionTwo.part1.socialmedia1link)}
+                                           className='mt-4 flex items-center'>
+                                            <span className='text-lg' style={{color: "#4aa1d4"}}>
                                                 {
-                                                    data.main.regionTwo.linkedin.introduceSecondary
+                                                    data.main.regionTwo.part1.socialmedia1text
                                                 }
                                             </span>
                                             <span className="animated_circle ml-2" aria-hidden="true">
                                                 <svg xmlns="http://www.w3.org/2000/svg"
-                                                    xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                    width="24px" height="24px" viewBox="0 0 24 24" xmlSpace="preserve">
+                                                     xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                     width="24px" height="24px" viewBox="0 0 24 24" xmlSpace="preserve">
                                                     <g className="animated_icon_arrow" fill="none" stroke="#2175FF"
-                                                        strokeWidth="1.5">
+                                                       strokeWidth="1.5">
                                                         <path transform="translate(6, 12)"
-                                                            d="M9.0075 2.25H0V3.75H9.0075V6L12 3L9.0075 0V2.25Z"
-                                                            fill="#002D72"></path>
+                                                              d="M9.0075 2.25H0V3.75H9.0075V6L12 3L9.0075 0V2.25Z"
+                                                              fill="#002D72"></path>
                                                     </g>
                                                     <circle className="animated_icon_circle" transform="rotate(-90)"
-                                                        cx="11" cy="11" r="11" fill="transparent" stroke="#2175FF"
-                                                        strokeWidth="1"></circle>
+                                                            cx="11" cy="11" r="11" fill="transparent" stroke="#2175FF"
+                                                            strokeWidth="1"></circle>
+                                                </svg>
+                                            </span>
+                                        </p>
+                                        <p onClick={_ => window.open(data.main.regionTwo.part1.socialmedia2link)}
+                                           className='mt-4 flex items-center'>
+                                            <span className='text-lg' style={{color: "#4aa1d4"}}>
+                                                {
+                                                    data.main.regionTwo.part1.socialmedia2text
+                                                }
+                                            </span>
+                                            <span className="animated_circle ml-2" aria-hidden="true">
+                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                     xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                     width="24px" height="24px" viewBox="0 0 24 24" xmlSpace="preserve">
+                                                    <g className="animated_icon_arrow" fill="none" stroke="#2175FF"
+                                                       strokeWidth="1.5">
+                                                        <path transform="translate(6, 12)"
+                                                              d="M9.0075 2.25H0V3.75H9.0075V6L12 3L9.0075 0V2.25Z"
+                                                              fill="#002D72"></path>
+                                                    </g>
+                                                    <circle className="animated_icon_circle" transform="rotate(-90)"
+                                                            cx="11" cy="11" r="11" fill="transparent" stroke="#2175FF"
+                                                            strokeWidth="1"></circle>
                                                 </svg>
                                             </span>
                                         </p>
@@ -368,13 +391,14 @@ function Index() {
                             <div className='w-6/12 bg-white'>
                                 <div className='relative'>
                                     <div className='relative'>
-                                        <img className='w-full' src={icon2Bg} />
+                                        <img className='w-full' src={icon2Bg}/>
                                         <div className='absolute top-0 w-full h-full bg-black bg-opacity-40'></div>
                                     </div>
-                                    <div className='flex items-center absolute left-52 top-28 transform -translate-x-1/2'>
+                                    <div
+                                        className='flex items-center absolute left-52 top-28 transform -translate-x-1/2'>
                                         <div className='w-24 h-24 flex p-4 rounded-full overflow-hidden'
-                                            style={{ background: "#eac642" }}>
-                                            <img className='w-full' src={icon2} />
+                                             style={{background: "#eac642"}}>
+                                            <img className='w-full' src={icon2}/>
                                             <div className="absolute left-1/2 transform bg-yellow-400 z-30" style={{
                                                 width: "1px",
                                                 height: "8rem",
@@ -382,13 +406,13 @@ function Index() {
                                                 bottom: "-10rem"
                                             }}></div>
                                         </div>
-                                        <p onClick={_ => window.open(data.main.regionTwo.education.link)}
-                                            className='ml-4 text-3xl border-b-4 hover:border-transparent text-white border-solid border-yellow-400 font-bold cursor-pointer'>Education</p>
+                                        <p onClick={_ => window.open(data.main.regionTwo.part2.link)}
+                                           className='ml-4 text-3xl border-b-4 hover:border-transparent text-white border-solid border-yellow-400 font-bold cursor-pointer'>{data.main.regionTwo.part2.title}</p>
                                     </div>
                                     <div className='text-left p-8'>
                                         <p>
                                             {
-                                                data.main.regionTwo.education.introducePrimary
+                                                data.main.regionTwo.part2.introducePrimary
                                             }
                                         </p>
                                     </div>
