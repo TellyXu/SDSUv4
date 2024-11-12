@@ -67,12 +67,12 @@
         }
     },
     "footer": {
-        "list1": "CONTACT US",
-        "list1Link": "https://www.google.com/search?q=list1Link",
-        "list2": "SIGN UP FOR NEWS",
-        "list2Link": "https://www.google.com/search?q=list2Link",
-        "list3": "SAN DIEGO STATE UNIVERSITY",
-        "list3Link": "https://www.google.com/search?q=list3Link",
+        "item1": "PAIR",
+        "item1Link": "https://www.aim-ahead.net/pair/",
+        "item2": "AIM",
+        "item2Link": "https://www.google.com/search?q=list2Link",
+        "item3": "SAN DIEGO STATE UNIVERSITY",
+        "item3Link": "https://www.sdsu.edu",
         "copyright": "AIM-AHEAD Coordinating Center is funded by NIH, Agreement No.: 1OT2OD032581-01"
     }
 }
