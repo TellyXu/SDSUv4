@@ -17,14 +17,14 @@ function Index() {
                     <div className='flex w-full lg:flex-row lg:w-full lg:justify-end flex-wrap gap-6 uppercase'
                         style={{ color: "#FFF" }}>
 
-                        <span onClick={_ => window.open(data.footer.list1Link)} className='hover:text-blue-700 cursor-pointer transition-all block w-full text-center lg:w-auto lg:inline'>
-                            {data.footer.list1}
+                        <span onClick={_ => window.open(data.footer.item1Link)} className='hover:text-blue-700 cursor-pointer transition-all block w-full text-center lg:w-auto lg:inline'>
+                            {data.footer.item1}
                         </span>
-                        <span onClick={_ => window.open(data.footer.list2Link)} className='hover:text-blue-700 cursor-pointer transition-all block w-full text-center lg:w-auto lg:inline'>
-                            {data.footer.list2}
+                        <span onClick={_ => window.open(data.footer.item2Link)} className='hover:text-blue-700 cursor-pointer transition-all block w-full text-center lg:w-auto lg:inline'>
+                            {data.footer.item2}
                         </span>
-                        <span onClick={_ => window.open(data.footer.list3Link)} className='hover:text-blue-700 cursor-pointer transition-all block w-full text-center lg:w-auto lg:inline'>
-                            {data.footer.list3}
+                        <span onClick={_ => window.open(data.footer.item3Link)} className='hover:text-blue-700 cursor-pointer transition-all block w-full text-center lg:w-auto lg:inline'>
+                            {data.footer.item3}
                         </span>
 
                         {/*}
