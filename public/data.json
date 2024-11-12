@@ -67,10 +67,10 @@
         }
     },
     "footer": {
-        "item1": "PAIR",
+        "item1": "AIM-AHEAD Program",
         "item1Link": "https://www.aim-ahead.net/pair/",
-        "item2": "AIM",
-        "item2Link": "https://www.google.com/search?q=list2Link",
+        "item2": "AI Readiness (PAIR)",
+        "item2Link": "https://www.aim-ahead.net/pair/",
         "item3": "SAN DIEGO STATE UNIVERSITY",
         "item3Link": "https://www.sdsu.edu",
         "copyright": "AIM-AHEAD Coordinating Center is funded by NIH, Agreement No.: 1OT2OD032581-01"
