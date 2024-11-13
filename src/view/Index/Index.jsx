@@ -15,7 +15,7 @@ import background5 from "../../../public/view/background5.jpg";
 const backgrounds = [background1, background2, background3, background4, background5];
 
 import LatestNews from "../../../public/view/LatestNews.png";
-import Emaillistpic from "../../../public/view/Emaillistpic.png";
+import PAIRpic from "../../../public/view/PAIR_pic.jpg";
 
 import Scrollreveal from "scrollreveal"
 import { CSSTransition } from 'react-transition-group';
@@ -441,7 +441,7 @@ function Index() {
                             </div>
                         </div>
                         <div className='w-6/12'>
-                            <img className='w-full shadow-primary' src={Emaillistpic} />
+                            <img className='w-full shadow-primary' src={PAIRpic} />
                         </div>
                     </div>
                 </div>
