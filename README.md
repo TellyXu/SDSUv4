@@ -1,19 +1,16 @@
 # AI for Health Equity Research Lab website
-## React + Vite + TailwindCSS 
-
-
-
-public/data.json is the file that contains all the context for the website, providing editability for the website without touching the code.
+## React + Vite + TailwindCSS
 
 ## How to edit the website
 
-read the Edit_instructions.docx file for more information on how to edit the website
+For detailed instructions on how to edit the website, refer to the Edit_instructions.docx file. The content of the website is dynamically sourced from public/data.json, allowing for easy updates without altering the codebase.
 
 ## How to deploy the website
 
-for non-tech user, you can read AWS Deployment Instructions.docx file for more information on how to deploy the website on AWS Amplify, without using github.
+### Non-Technical Users:
+See the AWS Deployment Instructions.docx for a step-by-step guide on deploying the website on AWS Amplify without using GitHub.
 
-for tech guys, you can follow the following steps to deploy the website:
+### Developers:
 
 to run the project:
 1. `npm install`
@@ -21,5 +18,4 @@ to run the project:
 
 to compile the project into static files:
 1. `npm run build`
-2. then all static files is in the `dist` folder
-3. you can deploy the `dist` folder to any static hosting service freely, like Azure Static Web Apps, AWS Amplify, GCP Static website, etc.
+2. The output, located in the dist folder, can be deployed to any static hosting service such as Azure Static Web Apps, AWS Amplify, or GCP Static Website Hosting.
