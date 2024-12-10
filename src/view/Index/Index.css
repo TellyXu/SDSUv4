@@ -1,0 +1,196 @@
+.btn:hover>span {
+    transform: translateX(3px) scale(1.1);
+    color: black;
+}
+
+.btn2:hover>span {
+    transform: translateX(3px) scale(1.1);
+    color: white;
+}
+.text-red-400 {
+    color: #ef4444;
+
+}
+
+.text-white-on-scroll {
+    color: white !important;
+}
+.text-aimahead-blue {
+    color: #63a8e0;
+}
+.extrabold-text {
+    font-weight: 900;
+}
+
+.blur-background {
+    backdrop-filter: blur(10px);
+}
+
+.animated_circle {
+    border-color: rgba(153, 153, 153, 0.35);
+    border-width: 0.0625rem;
+    transform: scale(1);
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.95);
+    border: 0.0625rem solid rgba(153, 153, 153, 0.35);
+    border-radius: 50%;
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: border-color .25s, border-width .25s, box-shadow .25s;
+    transition-delay: 0.3s;
+    will-change: transform;
+}
+
+.animated_icon_arrow {
+    width: 0.75rem;
+    height: 0.375rem;
+    stroke: #002D72;
+    transform: scale(0.92, 0.8);
+    transition: stroke 0.25s ease;
+}
+
+.animated_icon_circle {
+    stroke-dashoffset: 95;
+    stroke-dasharray: 95;
+    stroke: #002D72;
+    transform: translateX(0px) translateY(23px) rotate(-90deg);
+    transition: stroke-dashoffset 600ms ease;
+    transform-origin: 0px 0px 0px;
+}
+
+.animated_circle:hover .animated_icon_circle {
+    stroke-dashoffset: 0;
+}
+
+.animated_circle svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    overflow: visible;
+}
+
+
+@keyframes slideAndFade {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.fadeInSlow {
+    animation-name: slideAndFade;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-delay: 0s;
+}
+
+.fadeInFast {
+    animation-name: slideAndFade;
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+    animation-delay: 0.5s;
+}
+
+
+
+
+/* Slide in from the left for the left-side content */
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(+100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.left-content {
+    animation: slideInFromLeft 3s ease-out forwards;
+}
+
+
+/* Fade in each line of the right-side content individually */
+/* Delay the start of each line's animation by increasing amounts */
+.right-content-line1 {
+    opacity: 0;
+    animation: slideInFromRight 1s ease-out forwards;
+    animation-delay: 1s;
+}
+
+.right-content-line2 {
+    opacity: 0;
+    animation: slideInFromRight 1s ease-out forwards;
+    animation-delay: 2s;
+}
+
+.right-content-line3 {
+    opacity: 0;
+    animation: slideInFromRight 1s ease-out forwards;
+    animation-delay: 3s;
+}
+
+.right-content-line4 {
+    opacity: 0;
+    animation: slideInFromRight 1s ease-out forwards;
+    animation-delay: 4s;
+}
+
+/* Add as many nth-child rules as you have lines of content, increasing the delay each time */
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* for background in the first page*/
+
+@keyframes fade {
+    0% { opacity: 0; }
+    17% { opacity: 1; }
+    25% { opacity: 1; }
+    42% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+.slide {
+    animation: fade 36s infinite;
+}
+
+.slide:nth-child(1) { animation-delay: 0s; }
+.slide:nth-child(2) { animation-delay: 6s; }
+.slide:nth-child(3) { animation-delay: 12s; }
+.slide:nth-child(4) { animation-delay: 18s; }
+.slide:nth-child(5) { animation-delay: 24s; }
+.slide:nth-child(6) { animation-delay: 30s; }
+
+
+
+/* Define the font */
+
+@import '../../assets/Fonts/Web/arnhem/arnhem.css';
+@import '../../assets/Fonts/Web/gentona/gentona.css';
+@import '../../assets/Fonts/Web/quadon/quadon.css';
+@import '../../assets/Fonts/Web/titling-gothic/titling-gothic.css';

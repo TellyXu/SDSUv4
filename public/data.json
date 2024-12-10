@@ -1,0 +1,81 @@
+{
+    "header": {
+        "title": "Cancer Health Equity + AI/ML Lab supported by AIM-AHEAD Program for AI Readiness (PAIR)",
+        "main": {
+            "titlePrimary": "Cancer Health Equity + AI/ML Lab",
+            "titleSecondary": "supported by AIM-AHEAD Program for AI Readiness (PAIR)"
+        }
+    },
+    "main": {
+        "regionOne": {
+            "title": "The Latest",
+            "left": {
+                "text": "Cancer Health Equity + AI/ML Lab supported by AIM-AHEAD Program for AI Readiness (PAIR)",
+                "textSubsidiary": "TBD"
+            },
+            "right": {
+                "one": {
+                    "text-1-1": "10+",
+                    "text-1-2": "Courses Offered",
+                    "text-1-3": "Our Courses on AIM-AHEAD"
+                },
+                "two": {
+                    "text-2-1": "10+",
+                    "text-2-2": "Partner Organizations",
+                    "text-2-3": "We collaborate with a vast array of partners across all states and union territories"
+                },
+                "three": {
+                    "text-3-1": "100+",
+                    "text-3-2": "San Diego State University",
+                    "text-3-3": "Our multidisciplinary faculty are committed to advancing AIMAHEAD"
+                },
+                "GoogleScholarLink": "https://scholar.google.com",
+                "moreBtnLink": "https://www.google.com"
+            }
+        },
+        "regionTwo": {
+            "part1": {
+                "title": "Social Media",
+                "introducePrimary": "Read the latest research news, and learn about our affiliated Centers and Institutes",
+                "socialmedia1text": "Linkedin for Our Lab",
+                "socialmedia1link": "https://www.linkedin.com",
+                "socialmedia2text": "X for Our Lab",
+                "socialmedia2link": "https://www.x.com"
+            },
+            "part2": {
+                "title": "Education",
+                "link": "https://www.google.com/search?q=education",
+                "introducePrimary": "Discover student opportunities and connections."
+            }
+        },
+        "regionThree": {
+            "titlePrimary": "Program for AI Readiness(PAIR)",
+            "titleSecondary": "Learn more about PAIR and how you can get involved",
+            "buttonText": "Learn More",
+            "joinNowLink": "https://www.aim-ahead.net/pair"
+        },
+        "regionFour": {
+            "titlePrimary": "Contact Us",
+            "titleSecondary": "Get in Touch, Let’s Make an Impact Together",
+            "buttonText": "Contact Us Now",
+            "email": {
+                "address": "ugeorge@sdsu.edu",
+                "subject": "AIHE Lab Webpage - Contact Request",
+                "body": {
+                    "greeting": "Dear Dr. George",
+                    "content": "I am interested in contacting you to learn more about your AIHE lab.",
+                    "closing": "Best regards,"
+                }
+            }
+        }
+    },
+    "footer": {
+        "item1": "AIM-AHEAD Program",
+        "item1Link": "https://www.aim-ahead.net/",
+        "item2": "AI Readiness (PAIR)",
+        "item2Link": "https://www.aim-ahead.net/pair/",
+        "item3": "SAN DIEGO STATE UNIVERSITY",
+        "item3Link": "https://www.sdsu.edu",
+        "copyright": "AIM-AHEAD Coordinating Center is funded by NIH, Agreement No.: 1OT2OD032581-01"
+    }
+}
