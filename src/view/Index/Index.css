@@ -61,6 +61,10 @@
     transform-origin: 0px 0px 0px;
 }
 
+.hover-arrow:hover .animated_icon_circle {
+    stroke-dashoffset: 0;
+}
+
 .animated_circle:hover .animated_icon_circle {
     stroke-dashoffset: 0;
 }

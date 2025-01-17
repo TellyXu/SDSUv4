@@ -1,10 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
-
+import { useNavigate } from "react-router-dom"
 import Header from "../../components/header/Index";
 import Footer from "../../components/footer/Index";
-
-
-
 
 const bg2 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/wIAAgMBAAirR9cAAAAASUVORK5CYII=";
 
@@ -43,7 +40,7 @@ console.log('data', data)
 
 
 function Index() {
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
     const two = useRef(null);
     const [isMain, setIsMain] = useState(false);
     const cssRef = useRef(null);
@@ -97,14 +94,11 @@ function Index() {
                 opacity_bg = 1;
             }
 
-            // 根据滚动距离计算背景颜色的不透明度
             const newColor = `rgba(0, 45, 114, ${opacity_bg})`;
             setBgColor(newColor);
 
 
-            // 设置一个基准滚动距离，在此之后元素开始变淡
             const fadeStart = 20;
-            // 设定最大滚动距离，达到此距离后元素完全透明
             const fadeUntil = 100;
 
             let newOpacity = 1;
@@ -117,7 +111,6 @@ function Index() {
         };
 
 
-        // 监听页面滚动事件
         window.addEventListener('scroll', handleScroll);
 
         return () => {
@@ -154,13 +147,13 @@ function Index() {
                                 {data.header.main.titlePrimary}
                             </p>
 
-                            <div style={{fontFamily: 'gentona', fontWeight: 400, fontSize: '18px'}}
-                                 className="mt-3 text-lg fadeInFast">
+                            <div style={{ fontFamily: 'gentona', fontWeight: 400, fontSize: '18px' }}
+                                className="mt-3 text-lg fadeInFast">
                                 <p className="text-blur"
-                                   dangerouslySetInnerHTML={{__html: titleSecondaryHTML}}>
+                                    dangerouslySetInnerHTML={{ __html: titleSecondaryHTML }}>
                                 </p>
 
-                                {}
+                                { }
                             </div>
                         </h1>
                         <CSSTransition in={isMain} timeout={300} classNames="fade" unmountOnExit nodeRef={cssRef}>
@@ -193,30 +186,7 @@ function Index() {
                                     className='mt-2 text-xl lg:text-base'>
                                     TBD
                                 </p>
-                                {/*
-                                <div className='mt-8 flex gap-x-10'>
-                                    <div className='w-6/12 flex flex-col'>
-                                        <img className='w-full shadow-primary' src={main4} />
-                                        <p className='mt-8' style={{ color: "#F1C400" }}>Highlight</p>
-                                        <p className='mt-3 text-4xl'>
-                                            GKII Announces Breakthrough Grant Awardees for Health Data Research
-                                        </p>
-                                        <p className='mt-3'>
-                                            This exciting collaboration with Ashoka University is focused on the field of Health Data Research. Two teams were selected, each with a lead PI from both Johns Hopkins University and Ashoka University. This grant challenge awards $60,000 to each winning proposal for 18 months.
-                                        </p>
-                                    </div>
-                                    <div className='w-6/12 flex flex-col'>
-                                        <img className='w-full shadow-primary' src={main3} />
-                                        <p className='mt-8' style={{ color: "#F1C400" }}>Highlight</p>
-                                        <p className='mt-3 text-4xl'>
-                                            Dr. Gigi Gronvall the Awardee of GKII Climate & Health Breakthrough Grant
-                                        </p>
-                                        <p className='mt-3'>
-                                            The Gupta-Klinsky India Institute is excited to announce that Dr. Gigi Gronvall, Associate Professor, Department of Environmental Health and Engineering, at the Johns Hopkins Bloomberg School of Public Health has been selected as the awardee of the Summer 2023 GKII Breakthrough Research Grants Program!
-                                        </p>
-                                    </div>
-                                </div>
-                                                     */}
+
                             </div>
 
 
@@ -409,7 +379,7 @@ function Index() {
                                         <img className='w-full' src={icon2Bg} />
                                         <div className='absolute top-0 w-full h-full bg-black bg-opacity-40'></div>
                                     </div>
-                                    <div
+                                    <div onClick={_ => navigate('/events')}
                                         className='flex w-full lg:w-auto justify-center items-center absolute left-1/2 top-12 lg:left-52 lg:top-28 transform -translate-x-1/2'>
                                         <div className='w-24 h-24 flex p-4 rounded-full overflow-hidden'
                                             style={{ background: "#eac642" }}>
@@ -421,7 +391,7 @@ function Index() {
                                                 bottom: "-10rem"
                                             }}></div> */}
                                         </div>
-                                        <p onClick={_ => window.open(data.main.regionTwo.part2.link)}
+                                        <p
                                             className='ml-4 text-3xl border-b-4 hover:border-transparent text-white border-solid border-yellow-400 font-bold cursor-pointer'>{data.main.regionTwo.part2.title}</p>
                                     </div>
                                     <div className='text-left p-8'>

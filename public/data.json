@@ -30,7 +30,7 @@
                     "text-3-3": "Our multidisciplinary faculty are committed to advancing AIMAHEAD"
                 },
                 "GoogleScholarLink": "https://scholar.google.com",
-                "moreBtnLink": "https://www.google.com"
+                "moreBtnLink": "https://www.sdsu.edu/experts-directory/uduak-george"
             }
         },
         "regionTwo": {
@@ -43,9 +43,8 @@
                 "socialmedia2link": "https://www.x.com"
             },
             "part2": {
-                "title": "Education",
-                "link": "https://www.google.com/search?q=education",
-                "introducePrimary": "Discover student opportunities and connections."
+                "title": "Events",
+                "introducePrimary": "Recent Event List."
             }
         },
         "regionThree": {
@@ -67,7 +66,67 @@
                     "closing": "Best regards,"
                 }
             }
-        }
+        },
+        "EventList": [
+            {
+                "col1": "Outstanding Faculty Award",
+                "col2": "December, 2024",
+                "col3": "Dr. George was awarded the Outstanding Faculty Award, This award is in recognition of her outstanding contributions to the San Diego State University’s College of Sciences.",
+                "colUrl": "None"
+            },
+            {
+                "col1": "2024 San Diego Comic Con",
+                "col2": "July 26, 2024",
+                "col3": "Dr. George was a Panelist on the panel discussion on \"Asimov’s Foundation: Math, Morality and Making Humans\" at the 2024 San Diego Comic Con. The panel examined the math and science behind the sci-fi show Foundation and discussed the application of AI/ML in predictive modeling.",
+                "colUrl": "None"
+            },
+            {
+                "col1": "Discuss Endocrine Disruptors and Cancer Gene Networks at UC San Diego’s SFG Cross Lab Meeting",
+                "col2": "February 12, 2024",
+                "col3": "Dr. George will be presenting a talk on Feb 12th at the Moore House Cancer Center's Structural and Functional Genomics (SFG) Cross Lab meeting in the University of California San Diego. Dr. George's talk will focus on the effects of endocrine disruptors on cancer-related gene networks.",
+                "colUrl": "None"
+            }
+        ],
+        "FacultyList": [
+            {
+                "avatar": "../../public/RebeccaMattson.png",
+                "col1": "Rebecca Mattson, PhD, R.N., PHN",
+                "col2": "Assistant Professor of Nursing",
+                "col3": "San Diego State University",
+                "col4": "Rebecca Mattson, PhD, R.N., PHN, is an Assistant Professor of Nursing at San Diego State University, committed to advancing health equity, integrating technology into healthcare, and improving outcomes for underserved populations. Her work spans maternal-child health, cancer care, and culturally responsive practices, focusing on innovative, evidence-based solutions.\n",
+                "keyword": [
+                    " ",
+                    " ",
+                    " ",
+                    " "
+                ]
+            },
+            {
+                "avatar": "../../public/RebeccaMattson.png",
+                "col1": "Rebecca Mattson, PhD, R.N., PHN",
+                "col2": "Assistant Professor of Nursing",
+                "col3": "San Diego State University",
+                "col4": "Rebecca Mattson, PhD, R.N., PHN, is an Assistant Professor of Nursing at San Diego State University, committed to advancing health equity, integrating technology into healthcare, and improving outcomes for underserved populations. Her work spans maternal-child health, cancer care, and culturally responsive practices, focusing on innovative, evidence-based solutions.\n",
+                "keyword": [
+                    " ",
+                    " ",
+                    " ",
+                    " "
+                ]
+            },{
+                "avatar": "../../public/RebeccaMattson.png",
+                "col1": "Rebecca Mattson, PhD, R.N., PHN",
+                "col2": "Assistant Professor of Nursing",
+                "col3": "San Diego State University",
+                "col4": "Rebecca Mattson, PhD, R.N., PHN, is an Assistant Professor of Nursing at San Diego State University, committed to advancing health equity, integrating technology into healthcare, and improving outcomes for underserved populations. Her work spans maternal-child health, cancer care, and culturally responsive practices, focusing on innovative, evidence-based solutions.\n",
+                "keyword": [
+                    " ",
+                    " ",
+                    " ",
+                    " "
+                ]
+            }
+        ]
     },
     "footer": {
         "item1": "AIM-AHEAD Program",
