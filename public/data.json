@@ -35,23 +35,23 @@
         },
         "regionTwo": {
             "part1": {
-                "title": "Social Media",
-                "introducePrimary": "Read the latest research news, and learn about our affiliated Centers and Institutes",
+                "title": "News",
+                "introducePrimary": "Latest News List",
                 "socialmedia1text": "Linkedin for Our Lab",
                 "socialmedia1link": "https://www.linkedin.com",
                 "socialmedia2text": "X for Our Lab",
                 "socialmedia2link": "https://www.x.com"
             },
             "part2": {
-                "title": "Events",
-                "introducePrimary": "Recent Event List."
+                "title": "Research",
+                "introducePrimary": "Research Publications"
             }
         },
         "regionThree": {
             "titlePrimary": "Program for AI Readiness(PAIR)",
             "titleSecondary": "Learn more about PAIR and how you can get involved",
             "buttonText": "Learn More",
-            "joinNowLink": "https://www.aim-ahead.net/pair"
+            "joinNowLink": "https://www.aim-ahead.net/call-for-proposals-year-2/pair/"
         },
         "regionFour": {
             "titlePrimary": "Contact Us",
@@ -132,7 +132,7 @@
         "item1": "AIM-AHEAD Program",
         "item1Link": "https://www.aim-ahead.net/",
         "item2": "AI Readiness (PAIR)",
-        "item2Link": "https://www.aim-ahead.net/pair/",
+        "item2Link": "https://www.aim-ahead.net/call-for-proposals-year-2/pair/",
         "item3": "SAN DIEGO STATE UNIVERSITY",
         "item3Link": "https://www.sdsu.edu",
         "copyright": "AIM-AHEAD Coordinating Center is funded by NIH, Agreement No.: 1OT2OD032581-01"

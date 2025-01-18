@@ -318,6 +318,7 @@ function Index() {
 
                                             className='ml-4 text-3xl border-b-4 hover:border-transparent text-white border-solid border-yellow-400 font-bold cursor-pointer'>{data.main.regionTwo.part1.title}</p>
                                     </div>
+
                                     <div className='text-left p-8'>
                                         <p>
                                             {data.main.regionTwo.part1.introducePrimary}
