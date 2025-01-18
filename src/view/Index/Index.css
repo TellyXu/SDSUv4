@@ -134,7 +134,7 @@
 
 /* Fade in each line of the right-side content individually */
 /* Delay the start of each line's animation by increasing amounts */
-.right-content-line1 {
+/* .right-content-line1 {
     opacity: 0;
     animation: slideInFromRight 1s ease-out forwards;
     animation-delay: 1s;
@@ -156,7 +156,7 @@
     opacity: 0;
     animation: slideInFromRight 1s ease-out forwards;
     animation-delay: 4s;
-}
+} */
 
 /* Add as many nth-child rules as you have lines of content, increasing the delay each time */
 

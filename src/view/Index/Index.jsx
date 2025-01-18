@@ -29,6 +29,10 @@ import googlescholar from "../../../public/view/scholar_logo_64dp.png"
 import socialmedia1textIcon from "../../../public/view/linkedin.png"
 import socialmedia1textIcon2 from "../../../public/view/x.png"
 
+import avatar1 from "../../assets/view/avatar1.jpg"
+import avatar2 from "../../assets/view/avatar2.jpg"
+import avatar3 from "../../assets/view/avatar3.jpg"
+
 
 import "./Index.css"
 
@@ -73,7 +77,7 @@ function Index() {
                     duration: 1000,
                     delay: 300,
                     origin: position ? position : 'right',
-                    reset: true,
+                    reset: false,
                     mobile: true,
                     distance: '500px',
                     opacity: 0.001,
@@ -82,8 +86,9 @@ function Index() {
                 }
             }
             scrollreveal.reveal('#bg2', optionsScoll('bottom'))
-            scrollreveal.reveal('#bg3, #bg4', optionsScoll('right'))
-        }, 500)
+            scrollreveal.reveal('#bggg23, .right', optionsScoll('left'))
+            scrollreveal.reveal('#bg3, #bg4, .right-content-line1, .right-content-line2, .right-content-line3, .right-content-line4', optionsScoll('right'))
+        }, 0)
 
         const handleScroll = () => {
             const scrollTop = window.scrollY;
@@ -165,26 +170,56 @@ function Index() {
                 </div>
                 <div className="relative pb-20 bg-rose-300 bg-opacity-15 overflow-hidden"
                     style={{ background: "#4aa1d4" }}>
-                    <img id="bg2" className="absolute w-full h-full -left-48 top-0 z-20 opacity-5 object-contain"
+                    <img className="absolute w-full h-full -left-48 top-0 z-20 opacity-5 object-contain"
                         src={bg2} alt="Background" />
-                    <div ref={two} className="w-11/12 relative z-20 text-center mx-auto">
+                    <div className="w-11/12 relative z-20 text-center mx-auto">
                         <p style={{ fontFamily: 'quadon', fontWeight: 400 }}
                             className="m-0 mt-10 lg:mt-52 text-6xl font-bold text-center">The Latest</p>
                         <div className='relative mt-8 lg:flex'>
                             <div
-                                className=' lg:w-8/12 left-content text-left lg:border-r lg:pr-20 box-border border-r-white border-opacity-20'>
-                                <img className='w-full shadow-primary' src={LatestNews} />
-                                <p style={{
-                                    fontFamily: 'gentona',
-                                    fontWeight: 200,
-                                    fontSize: '14px',
-                                    color: '#F1C400'
-                                }} className='mt-8'>Introduction</p>
+                                className='lg:w-8/12 left-content text-left lg:border-r lg:pr-20 box-border border-r-white border-opacity-20'>
+                                {/* <img className='w-full shadow-primary' src={LatestNews}  /> */}
+                                <div className='flex shadow-primary p-4 bg-white text-black' id='bggg23'>
+                                    <div>
+                                        <img src={avatar1} className='rounded-sm' />
+                                        <p className='mt-1 hover:underline cursor-pointer'
+                                            onClick={_ => navigate('/faculty')}
+                                        >
+                                            Dr. Melody K Schiaffino, PhD, MPH
+                                            Associate Professor of Health Services Research1
+                                        </p>
+                                    </div>
+                                    <div className='ml-2'>
+                                        <img src={avatar2} className='rounded-sm' />
+                                        <p className='mt-1 hover:underline cursor-pointer'
+                                            onClick={_ => navigate('/faculty')}
+                                        >
+                                            Dr. Melody K Schiaffino, PhD, MPH
+                                            Associate Professor of Health Services Research2
+                                        </p>
+                                    </div>
+                                    <div className='ml-2'>
+                                        <img src={avatar3} className='rounded-sm' />
+                                        <p className='mt-1 hover:underline cursor-pointer'
+                                            onClick={_ => navigate('/faculty')}
+                                        >
+                                            Dr. Melody K Schiaffino, PhD, MPH
+                                            Associate Professor of Health Services Research3
+                                        </p>
+                                    </div>
+                                </div>
+                                <p
+                                    style={{
+                                        fontFamily: 'gentona',
+                                        fontWeight: 200,
+                                        fontSize: '14px',
+                                        color: '#F1C400'
+                                    }} className='mt-8 right'>Introduction</p>
                                 <p style={{ fontFamily: 'gentona', fontWeight: 400, fontSize: '36px' }}
-                                    className='font-bold mt-4 text-3xl hover:underline'>AI for Health Equity Research Lab supported by AIM-AHEAD Program for AI Readiness (PAIR) </p>
+                                    className='right font-bold mt-4 text-3xl hover:underline'>{data.main.regionOne.left.text}</p>
                                 <p style={{ fontFamily: 'gentona', fontWeight: 200, fontSize: '18px' }}
-                                    className='mt-2 text-xl lg:text-base'>
-                                    TBD
+                                    className='right mt-2 text-xl lg:text-base'>
+                                    {data.main.regionOne.left.textSubsidiary}
                                 </p>
 
                             </div>
@@ -246,9 +281,9 @@ function Index() {
                                 </div>
 
                                 <div className='mt-4 border-t border-white pt-4 border-opacity-30 right-content-line4'>
-                                    <div className='flex'>
+                                    <div className='flex flex-wrap gap-2'>
                                         <div
-                                            className='w-48 btn bg-white p-4 flex justify-center items-center hover:bg-yellow-400 cursor-pointer transition-all'
+                                            className='w-48 rounded-md btn bg-white p-4 flex justify-center items-center hover:bg-yellow-400 cursor-pointer transition-all'
                                             onClick={_ => window.open(data.main.regionOne.right.GoogleScholarLink)}
                                             style={{
                                                 color: "#4aa1d4",
@@ -258,11 +293,45 @@ function Index() {
                                             }}>
 
                                             <img src={googlescholar} alt="Google Scholar Icon"
-                                                className=" left-0 object-contain" />
+                                                className="w-36 left-0 object-contain" />
 
                                             <span className='ml-2 transition-all text-yellow-400'>→</span>
                                         </div>
                                         <div
+                                            className='w-48 rounded-md btn bg-white p-4 flex justify-center items-center hover:bg-yellow-400 cursor-pointer transition-all'
+                                            onClick={_ => window.open(data.main.regionOne.right.XLink)}
+                                            style={{
+                                                color: "#4aa1d4",
+                                                fontFamily: 'gentona',
+                                                fontWeight: 600,
+                                                fontSize: '18px'
+                                            }}>
+
+                                            <img src={socialmedia1textIcon2} alt="Google Scholar Icon"
+                                                className="w-4 left-0 object-contain" />
+
+                                            <p class={'ml-3'}>X(twitter)</p>
+
+                                            <span className='ml-2 transition-all text-yellow-400'>→</span>
+                                        </div>
+                                        <div
+                                            className='w-48 rounded-md  btn bg-white p-4 flex justify-center items-center hover:bg-yellow-400 cursor-pointer transition-all'
+                                            onClick={_ => window.open(data.main.regionOne.right.LinkedinLink)}
+                                            style={{
+                                                color: "#4aa1d4",
+                                                fontFamily: 'gentona',
+                                                fontWeight: 600,
+                                                fontSize: '18px'
+                                            }}>
+
+                                            <img src={socialmedia1textIcon} alt="Google Scholar Icon"
+                                                className="w-4 left-0 object-contain" />
+
+                                            <p class={'ml-3'}>Linkedin</p>
+
+                                            <span className='ml-2 transition-all text-yellow-400'>→</span>
+                                        </div>
+                                        {/* <div
                                             className='w-48 btn bg-white p-4 flex justify-center items-center hover:bg-yellow-400 cursor-pointer transition-all ml-4'
                                             onClick={_ => window.open(data.main.regionOne.right.moreBtnLink)}
                                             style={{
@@ -272,7 +341,7 @@ function Index() {
                                                 fontSize: '18px'
                                             }}>
                                             More About Us <span className='ml-2 transition-all text-yellow-400'>→</span>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
 
@@ -286,9 +355,9 @@ function Index() {
 
                 </div>
 
-                <div className="relative bg-opacity-15 lg:pt-40 pt-12" style={{ background: "#f3f3f3" }}>
-                    <div className="hidden lg:block absolute left-1/2 -translate-x-1/2 transform bg-yellow-400 z-30 opacity-60"
-                        style={{ width: "1px", height: "8rem", bottom: "44rem" }}></div>
+                <div className="relative bg-opacity-15 lg:pt-10 pb-12 pt-12" style={{ background: "#f3f3f3" }}>
+                    <div className="hidden xl:block absolute left-1/2 -translate-x-1/2 transform bg-yellow-400 z-30 opacity-60"
+                        style={{ width: "1px", height: "8rem", bottom: "39rem" }}></div>
 
                     <div className="w-11/12 relative z-20 text-center mx-auto text-black">
                         <p
@@ -302,7 +371,7 @@ function Index() {
                                         <img className='w-full' src={icon1Bg} />
                                         <div className='absolute top-0 w-full h-full bg-black bg-opacity-40'></div>
                                     </div>
-                                    <div
+                                    <div onClick={_ => navigate('/news')}
                                         className='flex w-full lg:w-auto justify-center items-center absolute left-1/2 top-12 lg:left-52 lg:top-28 transform -translate-x-1/2'>
                                         <div className='w-24 h-24 flex p-4 rounded-full overflow-hidden'
                                             style={{ background: "#eac642" }}>
@@ -315,61 +384,12 @@ function Index() {
                                             }}></div> */}
                                         </div>
                                         <p
-
                                             className='ml-4 text-3xl border-b-4 hover:border-transparent text-white border-solid border-yellow-400 font-bold cursor-pointer'>{data.main.regionTwo.part1.title}</p>
                                     </div>
 
                                     <div className='text-left p-8'>
                                         <p>
                                             {data.main.regionTwo.part1.introducePrimary}
-                                        </p>
-                                        <p onClick={_ => window.open(data.main.regionTwo.part1.socialmedia1link)}
-                                            className='mt-4 flex items-center'>
-                                            <span className='text-lg flex items-center' style={{ color: "#4aa1d4" }}>
-                                                <img className='w-4 h-4 mr-2' src={socialmedia1textIcon} />
-                                                {
-                                                    data.main.regionTwo.part1.socialmedia1text
-                                                }
-                                            </span>
-                                            <span className="animated_circle ml-2" aria-hidden="true">
-                                                <svg xmlns="http://www.w3.org/2000/svg"
-                                                    xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                    width="24px" height="24px" viewBox="0 0 24 24" xmlSpace="preserve">
-                                                    <g className="animated_icon_arrow" fill="none" stroke="#2175FF"
-                                                        strokeWidth="1.5">
-                                                        <path transform="translate(6, 12)"
-                                                            d="M9.0075 2.25H0V3.75H9.0075V6L12 3L9.0075 0V2.25Z"
-                                                            fill="#002D72"></path>
-                                                    </g>
-                                                    <circle className="animated_icon_circle" transform="rotate(-90)"
-                                                        cx="11" cy="11" r="11" fill="transparent" stroke="#2175FF"
-                                                        strokeWidth="1"></circle>
-                                                </svg>
-                                            </span>
-                                        </p>
-                                        <p onClick={_ => window.open(data.main.regionTwo.part1.socialmedia2link)}
-                                            className='mt-4 flex items-center'>
-                                            <span className='text-lg flex items-center' style={{ color: "#4aa1d4" }}>
-                                                <img className='w-4 h-4 mr-2' src={socialmedia1textIcon2} />
-                                                {
-                                                    data.main.regionTwo.part1.socialmedia2text
-                                                }
-                                            </span>
-                                            <span className="animated_circle ml-2" aria-hidden="true">
-                                                <svg xmlns="http://www.w3.org/2000/svg"
-                                                    xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                    width="24px" height="24px" viewBox="0 0 24 24" xmlSpace="preserve">
-                                                    <g className="animated_icon_arrow" fill="none" stroke="#2175FF"
-                                                        strokeWidth="1.5">
-                                                        <path transform="translate(6, 12)"
-                                                            d="M9.0075 2.25H0V3.75H9.0075V6L12 3L9.0075 0V2.25Z"
-                                                            fill="#002D72"></path>
-                                                    </g>
-                                                    <circle className="animated_icon_circle" transform="rotate(-90)"
-                                                        cx="11" cy="11" r="11" fill="transparent" stroke="#2175FF"
-                                                        strokeWidth="1"></circle>
-                                                </svg>
-                                            </span>
                                         </p>
                                     </div>
                                 </div>
@@ -380,7 +400,7 @@ function Index() {
                                         <img className='w-full' src={icon2Bg} />
                                         <div className='absolute top-0 w-full h-full bg-black bg-opacity-40'></div>
                                     </div>
-                                    <div onClick={_ => navigate('/events')}
+                                    <div onClick={_ => navigate('/publications')}
                                         className='flex w-full lg:w-auto justify-center items-center absolute left-1/2 top-12 lg:left-52 lg:top-28 transform -translate-x-1/2'>
                                         <div className='w-24 h-24 flex p-4 rounded-full overflow-hidden'
                                             style={{ background: "#eac642" }}>

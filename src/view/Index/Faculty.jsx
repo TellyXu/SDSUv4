@@ -25,26 +25,20 @@ const index = () => {
                     Faculty
                 </div>
             </div>
-            <div className={'mx-auto w-11/12 md:w-10/12 my-20'}>
+            <div className={'mx-auto w-11/12 md:w-9/12 my-20'}>
                 {
                     data.main.FacultyList.map((item, index) => <div key={item.avatar + index}>
                         <div className='md:flex items-center'>
-                            <div className='mr-4 w-5/12 md:w-6/12'>
-                                <img className={'w-full'}
+                            <div className='mr-10'>
+                                <img className={'w-60'}
                                     src={item.avatar} />
                             </div>
-                            <div className='md:mt-0 mt-4'>
-                                <p className={'text-3xl font-bold'}>{item.col1}</p>
-                                <p className={'text-gray-500 mt-2'}>{item.col2}</p>
-                                <p className={'font-bold my-4'}>{item.col3}</p>
-                                <div className='flex justify-between pr-10'>
-                                    <p className={'text-gray-500 w-9/12'}>{item.col4}</p>
-                                    <div >
-                                        {
-                                            item.keyword.map((item2, index2) => <p key={item2 + index2} className='first:mt-0 mt-2 text-gray-500'>{item2}</p>)
-                                        }
-                                    </div>
-                                </div>
+                            <div className='md:mt-0 mt-4 flex-1'>
+                                <p className={'text-3xl font-bold'} style={{ color: '#982932' }}>{item.name}</p>
+                                <p className={'text-gray-500 mt-2'}>{item.title}</p>
+                                <p className={'font-boldpublications'}>{item.introduction}</p>
+                                <p className={'font-boldpublications'}>{item.col4}</p>
+                                <p className={'font-bold mb-4'}>{item.col5}</p>
                             </div>
                         </div>
                         {
