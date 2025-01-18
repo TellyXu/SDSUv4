@@ -22,7 +22,7 @@ const index = () => {
                     <button className='text-center text-base hover:underline' onClick={_ => navigate('/')}>
                         Return to homepage
                     </button>
-                    Events 2025
+                    News
                 </div>
             </div>
             <div className={'mx-auto w-11/12 md:w-7/12 my-20'}>

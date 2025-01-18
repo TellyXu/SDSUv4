@@ -3,7 +3,7 @@ import { CSSTransition } from 'react-transition-group';
 import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import { message, Button, Tooltip, Modal, Popover } from 'antd';
 import Index from "./view/Index/Index"
-import Events from "./view/Index/Events.jsx"
+import News from "./view/Index/News.jsx"
 import Faculty from "./view/Index/Faculty.jsx"
 import Template from "./view/Index/Template.jsx"
 
@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Navigate to="index" />} />
         <Route path="index" element={<Index />} />
-        <Route path="events" element={<Events />} />
+        <Route path="news" element={<News />} />
         <Route path="faculty" element={<Faculty />} />
         <Route path="template" element={<Template />} />
 
