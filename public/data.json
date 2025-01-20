@@ -11,7 +11,7 @@
             "title": "The Latest",
             "left": {
                 "text": "Cancer Health Equity + AI/ML Lab supported by AIM-AHEAD Program for AI Readiness (PAIR)",
-                "textSubsidiary": "The Cancer Health Equity & AI Research Lab is a part of the AIM-AHEAD (Artificial Intelligence/Machine Learning Consortium to Advance Health Equity and Researcher Diversity) Program for Artificial Intelligence Readiness. In partnership with AIM-AHEAD, the lab is dedicated to advancing AI-driven health equity research and offering exceptional resources to educate and train underrepresented minority scientists and health professionals, empowering them to shape the future AI workforce.\nOur faculty are affiliated with the School of Public Health and the College of Sciences at SDSU.\n"
+                "textSubsidiary": "The Cancer Health Equity & AI Research Lab is a part of the AIM-AHEAD (Artificial Intelligence/Machine Learning Consortium to Advance Health Equity and Researcher Diversity) Program for Artificial Intelligence Readiness. In partnership with AIM-AHEAD, the lab is dedicated to advancing AI-driven health equity research and offering exceptional resources to educate and train underrepresented minority scientists and health professionals, empowering them to shape the future AI workforce.\nOur faculty are affiliated with the School of Public Health and the College of Sciences at SDSU.\n \n Our faculty are affiliated with the School of Public Health and the College of Sciences at SDSU."
             },
             "right": {
                 "one": {
@@ -86,33 +86,33 @@
         ],
         "FacultyList": [
             {
-                "avatar": "../../public/rebecca-mattson-300.jpg",
+                "avatar": "../../src/assets/view/rebecca-mattson-300.jpg",
                 "name": "Rebecca Mattson, PhD, R.N., PHN,",
                 "title": "Assistant Professor of Nursing",
-                "introduction": "Rebecca Mattson, PhD, R.N., PHN, is an Assistant Professor of Nursing at San Diego State University",
+                "introduction": "Rebecca Mattson, PhD, R.N., PHN, is an Assistant Professor of Nursing at San Diego State University. She is committed to advancing health equity, integrating technology into healthcare, and improving outcomes for underserved populations. Her work spans maternal-child health, cancer care, and culturally responsive practices, focusing on innovative, evidence-based solutions.\n",
                 "col4": "",
                 "col5": ""
             },
             {
-                "avatar": "../../public/melody-schiaffino-300.jpg",
-                "name": "melody-schiaffino",
-                "title": "title",
-                "introduction": "introduction",
-                "col4": "col4",
-                "col5": "col5"
+                "avatar": "../../src/assets/view/melody-schiaffino-300.jpg",
+                "name": "Melody K. Schiaffino, Ph.D., MPH",
+                "title": "Associate Professor",
+                "introduction": "Melody K Schiaffino, Ph.D, MPH, is an associate professor at the School of Public Health and the co-director of the Cancer Health Equity & AI Research Lab at San Diego State University. Dr. Schiaffino is the inaugural Associate Director of UCSD Moores Cancer Center for Equity, Diversity, and Inclusion and a fellow of the PRIDE Scholars for Research in Implementation Science and Equity (RISE) at UCSF (Cohort 9). Dr. Schiaffino is a recipient of the National Institute of Health’s National Institute on Aging K01 Career Development Award.\n",
+                "col4": "",
+                "col5": ""
             },
             {
-                "avatar": "../../public/uduak-george-300x300.jpg",
-                "name": "uduak-george-300x300",
-                "title": "title",
-                "introduction": "introduction",
-                "col4": "col4",
-                "col5": "col5"
+                "avatar": "../../src/assets/view/uduak-george-300x300.jpg",
+                "name": "Uduak George, Ph.D.",
+                "title": "Assistant Professor",
+                "introduction": "Dr. Uduak George is an assistant professor in the Department of Mathematics and Statistics. She holds a Ph.D. in mathematics from the University of Sussex in Brighton, United Kingdom, and a master's degree in computational mathematics with modeling from Brunel University in West London, United Kingdom. She had her postdoctoral research training at the University of Wisconsin-Milwaukee and North Carolina State University. Dr George is a mathematical biologist. Her areas of interest include computational fluid dynamics, biomechanics, parameter estimation, digital image processing and analysis, and numerical approximation of partial differential equations on fixed and evolving domains.",
+                "col4": "",
+                "col5": ""
             }
         ],
         "publications": [
             {
-                "content": "<p> Project: Leveraging artificial intelligence/machine learning (AI/ML) to identify multi-level factors associated with detection of late-stage lung-cancer </p> <p>Lung cancer is the 2nd most diagnosed cancer in the United States for both men and women with about 234,580 new cases annually based on the most recent estimates. Lung cancer is the leading cause of cancer mortality for adults over 50 years, regardless of gender. Localized, or early-stage lung cancer, can be treated aggressively and result in better outcomes and better overall survival, compared to lung cancer detected at a later stage when it has likely migrated beyond the primary tumor and treatment options are more limited. Routine screening for lung cancer via low-dose computed tomography supports early detection however it is not systematically utilized resulting in missed opportunities for early detection. Efforts to develop models for identifying and diagnosing lung cancer using AI/ML from screening data have been in development for over a decade, however, they fail to consider important context including: social determinants of health (SDOH) factors such as geography, environment, social, and similar which are critical to identify candidates whom, due to a lack of routine screening, were diagnosed at later stages. This project aims to leverage artificial intelligence/machine learning (AI/ML) to identify multi-level factors associated with detection of late-stage lung-cancer especially in underserved populations. </p>"
+                "content": "<p style=\"margin: 0px 0px 0px 48px; font-size: medium; font-family: &quot;Times New Roman&quot;, serif; white-space: normal; text-align: center;\"><strong><span style=\"font-size: 15px;font-family: Aptos, sans-serif;color: rgb(34, 34, 34)\">Project: Leveraging artificial intelligence/machine learning (AI/ML) to identify multi-level factors associated with detection of late-stage lung-cancer</span></strong></p><p style=\"margin: 0px 0px 0px 48px; font-size: medium; font-family: &quot;Times New Roman&quot;, serif; white-space: normal; text-align: center;\"><strong><span style=\"font-size: 15px;font-family: Aptos, sans-serif;color: rgb(34, 34, 34)\"><br/></span></strong></p><p style=\"margin: 0 0 0 48px;font-size: medium;font-family: &#39;Times New Roman&#39;, serif;white-space: normal\"><span style=\"font-size: 13px;font-family: Aptos, sans-serif;color: rgb(34, 34, 34)\">&nbsp; &nbsp; Lung cancer is the 2nd most diagnosed cancer in the United States for both men and women with about 234,580 new cases annually based on the most recent estimates. Lung cancer is the leading cause of cancer mortality for adults &gt;50 years, regardless of gender. Localized, or early-stage lung cancer, can be treated aggressively and result in better outcomes and better overall survival, compared to lung cancer detected at a later stage when it has likely migrated beyond the primary tumor and treatment options are more limited.&nbsp;</span></p><p style=\"margin: 0 0 0 48px;font-size: medium;font-family: &#39;Times New Roman&#39;, serif;white-space: normal\"><span style=\"font-size: 13px;font-family: Aptos, sans-serif;color: rgb(34, 34, 34)\">&nbsp; &nbsp; Routine screening for lung cancer via low-dose computed tomography supports early detection however it is not systematically utilized resulting in missed opportunities for early detection. Efforts to develop models for identifying and diagnosing lung cancer using AI/ML from screening data have been in development for over a decade, however, they fail to consider important context including: social determinants of health (SDOH) factors such as geography, environment, social, and similar which are critical to identify candidates whom, due to a lack of routine screening, were diagnosed at later stages. This project aims to leverage artificial intelligence/machine learning (AI/ML) to identify multi-level factors associated with detection of late-stage lung-cancer especially in underserved populations.</span></p><p><br/></p>"
             }
 
         ]

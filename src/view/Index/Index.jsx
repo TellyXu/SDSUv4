@@ -5,29 +5,29 @@ import Footer from "../../components/footer/Index";
 
 const bg2 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/wIAAgMBAAirR9cAAAAASUVORK5CYII=";
 
-import background1 from "../../../public/view/background1.jpg";
-import background2 from "../../../public/view/background2.jpg";
-import background3 from "../../../public/view/background3.jpg";
-import background4 from "../../../public/view/background4.jpg";
-import background5 from "../../../public/view/background5.jpg";
+import background1 from "../../assets/view/background1.jpg";
+import background2 from "../../assets/view/background2.jpg";
+import background3 from "../../assets/view/background3.jpg";
+import background4 from "../../assets/view/background4.jpg";
+import background5 from "../../assets/view/background5.jpg";
 const backgrounds = [background1, background2, background3, background4, background5];
 
-import LatestNews from "../../../public/view/LatestNews.png";
-import PAIRpic from "../../../public/view/PAIR_pic.jpg";
+import LatestNews from "../../assets/view/LatestNews.png";
+import PAIRpic from "../../assets/view/PAIR_pic.jpg";
 
 import Scrollreveal from "scrollreveal"
 import { CSSTransition } from 'react-transition-group';
 
 import icon1 from "../../assets/view/icon1.jpg"
-import icon2 from "../../../public/view/icon2.jpg"
-import icon1Bg from "../../../public/view/icon1Bg.jpg"
-import icon2Bg from "../../../public/view/icon2Bg.jpg"
-import media from "../../../public/view/media.png"
-import linkedinlogo from "../../../public/view/linkedin_logo.png"
-import googlescholar from "../../../public/view/scholar_logo_64dp.png"
+import icon2 from "../../assets/view/icon2.jpg"
+import icon1Bg from "../../assets/view/icon1Bg.jpg"
+import icon2Bg from "../../assets/view/icon2Bg.jpg"
+import media from "../../assets/view/media.png"
+import linkedinlogo from "../../assets/view/linkedin_logo.png"
+import googlescholar from "../../assets/view/scholar_logo_64dp.png"
 
-import socialmedia1textIcon from "../../../public/view/linkedin.png"
-import socialmedia1textIcon2 from "../../../public/view/x.png"
+import socialmedia1textIcon from "../../assets/view/linkedin.png"
+import socialmedia1textIcon2 from "../../assets/view/x.png"
 
 import avatar1 from "../../assets/view/avatar1.jpg"
 import avatar2 from "../../assets/view/avatar2.jpg"
@@ -185,8 +185,10 @@ function Index() {
                                         <p className='mt-1 hover:underline cursor-pointer'
                                             onClick={_ => navigate('/faculty')}
                                         >
-                                            Dr. Melody K Schiaffino, PhD, MPH
-                                            Associate Professor of Health Services Research1
+                                            Melody K. Schiaffino, Ph.D., MPH
+                                            Assistant Professor
+                                            San Diego State University
+
                                         </p>
                                     </div>
                                     <div className='ml-2'>
@@ -195,7 +197,8 @@ function Index() {
                                             onClick={_ => navigate('/faculty')}
                                         >
                                             Dr. Melody K Schiaffino, PhD, MPH
-                                            Associate Professor of Health Services Research2
+                                            Associate Professor of Health
+                                            Services Research2
                                         </p>
                                     </div>
                                     <div className='ml-2'>
