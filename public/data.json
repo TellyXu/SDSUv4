@@ -41,7 +41,7 @@
             },
             "part2": {
                 "title": "Research",
-                "introducePrimary": "Research Publications"
+                "introducePrimary": "Research Projects and Publications"
             }
         },
         "regionThree": {
@@ -83,6 +83,7 @@
                 "col3": "Dr. George will be presenting a talk on Feb 12th at the Moore House Cancer Center's Structural and Functional Genomics (SFG) Cross Lab meeting in the University of California San Diego. Dr. George's talk will focus on the effects of endocrine disruptors on cancer-related gene networks.",
                 "colUrl": "None"
             }
+
         ],
         "FacultyList": [
             {

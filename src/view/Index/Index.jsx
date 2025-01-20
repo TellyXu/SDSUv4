@@ -183,31 +183,34 @@ function Index() {
                                     <div className='w-4/12'>
                                         <img src={avatar1} className='w-full rounded-sm overflow-hidden' />
                                         <p className='mt-1 hover:underline cursor-pointer'
-                                            onClick={_ => navigate('/faculty')}
+                                           style={{ textAlign: 'center' }}
+                                           onClick={_ => navigate('/faculty')}
                                         >
-                                            Melody K. Schiaffino, Ph.D., MPH
+                                            <strong>Melody K. Schiaffino, Ph.D., MPH</strong>
+                                            <br/>
                                             Assistant Professor
-                                            San Diego State University
-
                                         </p>
                                     </div>
                                     <div className='w-4/12 ml-2'>
                                         <img src={avatar2} className='w-full rounded-sm overflow-hidden' />
                                         <p className='mt-1 hover:underline cursor-pointer'
-                                            onClick={_ => navigate('/faculty')}
+                                           style={{ textAlign: 'center' }}
+                                           onClick={_ => navigate('/faculty')}
                                         >
-                                            Dr. Melody K Schiaffino, PhD, MPH
-                                            Associate Professor of Health
-                                            Services Research2
+                                            <strong>Rebecca Mattson, Ph.D., R.N., PHN</strong>
+                                            <br/>
+                                            Assistant Professor of Nursing
                                         </p>
                                     </div>
                                     <div className='w-4/12 ml-2'>
                                         <img src={avatar3} className='w-full rounded-sm overflow-hidden' />
                                         <p className='mt-1 hover:underline cursor-pointer'
-                                            onClick={_ => navigate('/faculty')}
+                                           style={{ textAlign: 'center' }}
+                                           onClick={_ => navigate('/faculty')}
                                         >
-                                            Dr. Melody K Schiaffino, PhD, MPH
-                                            Associate Professor of Health Services Research3
+                                            <strong>Uduak George, Ph.D.</strong>
+                                                <br/>
+                                            Assistant Professor
                                         </p>
                                     </div>
                                 </div>
