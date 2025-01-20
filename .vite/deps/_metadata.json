@@ -1,0 +1,64 @@
+{
+  "hash": "15964cde",
+  "configHash": "ea262580",
+  "lockfileHash": "90352d3e",
+  "browserHash": "8f68f306",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "d0efcee0",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "caab62c4",
+      "needsInterop": true
+    },
+    "@react-buddy/ide-toolbox": {
+      "src": "../../node_modules/@react-buddy/ide-toolbox/dist/index.esm.js",
+      "file": "@react-buddy_ide-toolbox.js",
+      "fileHash": "ccb46b45",
+      "needsInterop": false
+    },
+    "react-transition-group": {
+      "src": "../../node_modules/react-transition-group/esm/index.js",
+      "file": "react-transition-group.js",
+      "fileHash": "20d2f05b",
+      "needsInterop": false
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "4ca3dbbb",
+      "needsInterop": false
+    },
+    "antd": {
+      "src": "../../node_modules/antd/es/index.js",
+      "file": "antd.js",
+      "fileHash": "ea24747d",
+      "needsInterop": false
+    },
+    "scrollreveal": {
+      "src": "../../node_modules/scrollreveal/dist/scrollreveal.es.js",
+      "file": "scrollreveal.js",
+      "fileHash": "a7e0ecd1",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-JDHMKLAK": {
+      "file": "chunk-JDHMKLAK.js"
+    },
+    "chunk-UF7DBQZA": {
+      "file": "chunk-UF7DBQZA.js"
+    },
+    "chunk-TQDKLHUW": {
+      "file": "chunk-TQDKLHUW.js"
+    },
+    "chunk-LNEMQRCO": {
+      "file": "chunk-LNEMQRCO.js"
+    }
+  }
+}

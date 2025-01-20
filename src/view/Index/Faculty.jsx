@@ -27,10 +27,10 @@ const index = () => {
             </div>
             <div className={'mx-auto w-11/12 md:w-9/12 my-20'}>
                 {
-                    data.main.FacultyList.map((item, index) => <div key={item.avatar + index}>
+                    data.main.FacultyList.map((item, index) => <div key={item.avatar + index} className='first:mt-0 mt-8'>
                         <div className='md:flex items-center'>
                             <div className='mr-10'>
-                                <img className={'w-60'}
+                                <img className={'w-60 rounded-md'}
                                     src={item.avatar} />
                             </div>
                             <div className='md:mt-0 mt-4 flex-1'>

@@ -180,8 +180,8 @@ function Index() {
                                 className='lg:w-8/12 left-content text-left lg:border-r lg:pr-20 box-border border-r-white border-opacity-20'>
                                 {/* <img className='w-full shadow-primary' src={LatestNews}  /> */}
                                 <div className='flex shadow-primary p-4 bg-white text-black' id='bggg23'>
-                                    <div>
-                                        <img src={avatar1} className='rounded-sm' />
+                                    <div className='w-4/12'>
+                                        <img src={avatar1} className='w-full rounded-sm overflow-hidden' />
                                         <p className='mt-1 hover:underline cursor-pointer'
                                             onClick={_ => navigate('/faculty')}
                                         >
@@ -191,8 +191,8 @@ function Index() {
 
                                         </p>
                                     </div>
-                                    <div className='ml-2'>
-                                        <img src={avatar2} className='rounded-sm' />
+                                    <div className='w-4/12 ml-2'>
+                                        <img src={avatar2} className='w-full rounded-sm overflow-hidden' />
                                         <p className='mt-1 hover:underline cursor-pointer'
                                             onClick={_ => navigate('/faculty')}
                                         >
@@ -201,8 +201,8 @@ function Index() {
                                             Services Research2
                                         </p>
                                     </div>
-                                    <div className='ml-2'>
-                                        <img src={avatar3} className='rounded-sm' />
+                                    <div className='w-4/12 ml-2'>
+                                        <img src={avatar3} className='w-full rounded-sm overflow-hidden' />
                                         <p className='mt-1 hover:underline cursor-pointer'
                                             onClick={_ => navigate('/faculty')}
                                         >
@@ -313,7 +313,7 @@ function Index() {
                                             <img src={socialmedia1textIcon2} alt="Google Scholar Icon"
                                                 className="w-4 left-0 object-contain" />
 
-                                            <p class={'ml-3'}>X(twitter)</p>
+                                            <p className={'ml-3'}>X(twitter)</p>
 
                                             <span className='ml-2 transition-all text-yellow-400'>→</span>
                                         </div>
@@ -330,7 +330,7 @@ function Index() {
                                             <img src={socialmedia1textIcon} alt="Google Scholar Icon"
                                                 className="w-4 left-0 object-contain" />
 
-                                            <p class={'ml-3'}>Linkedin</p>
+                                            <p className={'ml-3'}>Linkedin</p>
 
                                             <span className='ml-2 transition-all text-yellow-400'>→</span>
                                         </div>
