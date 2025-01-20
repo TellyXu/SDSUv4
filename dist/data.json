@@ -1,0 +1,130 @@
+{
+    "header": {
+        "title": "Cancer Health Equity + AI/ML Lab supported by AIM-AHEAD Program for AI Readiness (PAIR)",
+        "main": {
+            "titlePrimary": "Cancer Health Equity + AI/ML Lab",
+            "titleSecondary": "supported by AIM-AHEAD Program for AI Readiness (PAIR)"
+        }
+    },
+    "main": {
+        "regionOne": {
+            "title": "The Latest",
+            "left": {
+                "text": "Cancer Health Equity + AI/ML Lab supported by AIM-AHEAD Program for AI Readiness (PAIR)",
+                "textSubsidiary": "The Cancer Health Equity & AI Research Lab is a part of the AIM-AHEAD (Artificial Intelligence/Machine Learning Consortium to Advance Health Equity and Researcher Diversity) Program for Artificial Intelligence Readiness. In partnership with AIM-AHEAD, the lab is dedicated to advancing AI-driven health equity research and offering exceptional resources to educate and train underrepresented minority scientists and health professionals, empowering them to shape the future AI workforce.\nOur faculty are affiliated with the School of Public Health and the College of Sciences at SDSU.\n \n Our faculty are affiliated with the School of Public Health and the College of Sciences at SDSU."
+            },
+            "right": {
+                "one": {
+                    "text-1-1": "",
+                    "text-1-2": "Multidisciplinary Team",
+                    "text-1-3": "Our multidisciplinary faculty are dedicated to advancing AI-driven health equity research and offering exceptional resources to educate and train underrepresented minority scientists and health professionals, empowering them to shape the future AI workforce."
+                },
+                "two": {
+                    "text-2-1": "",
+                    "text-2-2": "Partner Organizations",
+                    "text-2-3": "We collaborate with a vast array of research labs and institutions across the United States."
+                },
+                "three": {
+                    "text-3-1": "",
+                    "text-3-2": "San Diego State University",
+                    "text-3-3": "A Minority Serving Institution (MSI) that provides a gateway to higher education and the workforce, particularly for underrepresented students and those from low-income and first-generation college students. We are excited to partner with AIM-AHEAD to advance AI-driven health equity research"
+                },
+                "GoogleScholarLink": "https://scholar.google.com",
+                "LinkedinLink": "https://www.linkedin.com/company/the-cancer-health-equity-ai-research-lab-at-sdsu/?viewAsMember=true",
+                "XLink": "https://www.sdsu.edu/experts-directory/uduak-george"
+            }
+        },
+        "regionTwo": {
+            "part1": {
+                "title": "News",
+                "introducePrimary": "Latest News List"
+            },
+            "part2": {
+                "title": "Research",
+                "introducePrimary": "Research Projects and Publications"
+            }
+        },
+        "regionThree": {
+            "titlePrimary": "Program for AI Readiness(PAIR)",
+            "titleSecondary": "Learn more about PAIR and how you can get involved",
+            "buttonText": "Learn More",
+            "joinNowLink": "https://www.aim-ahead.net/call-for-proposals-year-2/pair/"
+        },
+        "regionFour": {
+            "titlePrimary": "Contact Us",
+            "titleSecondary": "Get in Touch, Let’s Make an Impact Together",
+            "buttonText": "Contact Us Now",
+            "email": {
+                "address": "ugeorge@sdsu.edu",
+                "subject": "AIHE Lab Webpage - Contact Request",
+                "body": {
+                    "greeting": "Dear Dr. George",
+                    "content": "I am interested in contacting you to learn more about your AIHE lab.",
+                    "closing": "Best regards,"
+                }
+            }
+        },
+        "EventList": [
+            {
+                "col1": "Outstanding Faculty Award",
+                "col2": "December, 2024",
+                "col3": "Dr. George was awarded the Outstanding Faculty Award, This award is in recognition of her outstanding contributions to the San Diego State University’s College of Sciences.",
+                "colUrl": "None"
+            },
+            {
+                "col1": "2024 San Diego Comic Con",
+                "col2": "July 26, 2024",
+                "col3": "Dr. George was a Panelist on the panel discussion on \"Asimov’s Foundation: Math, Morality and Making Humans\" at the 2024 San Diego Comic Con. The panel examined the math and science behind the sci-fi show Foundation and discussed the application of AI/ML in predictive modeling.",
+                "colUrl": "None"
+            },
+            {
+                "col1": "Discuss Endocrine Disruptors and Cancer Gene Networks at UC San Diego’s SFG Cross Lab Meeting",
+                "col2": "February 12, 2024",
+                "col3": "Dr. George will be presenting a talk on Feb 12th at the Moore House Cancer Center's Structural and Functional Genomics (SFG) Cross Lab meeting in the University of California San Diego. Dr. George's talk will focus on the effects of endocrine disruptors on cancer-related gene networks.",
+                "colUrl": "None"
+            }
+
+        ],
+        "FacultyList": [
+            {
+                "avatar": "../../src/assets/view/rebecca-mattson-300.jpg",
+                "name": "Rebecca Mattson, PhD, R.N., PHN,",
+                "title": "Assistant Professor of Nursing",
+                "introduction": "Rebecca Mattson, PhD, R.N., PHN, is an Assistant Professor of Nursing at San Diego State University. She is committed to advancing health equity, integrating technology into healthcare, and improving outcomes for underserved populations. Her work spans maternal-child health, cancer care, and culturally responsive practices, focusing on innovative, evidence-based solutions.\n",
+                "col4": "",
+                "col5": ""
+            },
+            {
+                "avatar": "../../src/assets/view/melody-schiaffino-300.jpg",
+                "name": "Melody K. Schiaffino, Ph.D., MPH",
+                "title": "Associate Professor",
+                "introduction": "Melody K Schiaffino, Ph.D, MPH, is an associate professor at the School of Public Health and the co-director of the Cancer Health Equity & AI Research Lab at San Diego State University. Dr. Schiaffino is the inaugural Associate Director of UCSD Moores Cancer Center for Equity, Diversity, and Inclusion and a fellow of the PRIDE Scholars for Research in Implementation Science and Equity (RISE) at UCSF (Cohort 9). Dr. Schiaffino is a recipient of the National Institute of Health’s National Institute on Aging K01 Career Development Award.\n",
+                "col4": "",
+                "col5": ""
+            },
+            {
+                "avatar": "../../src/assets/view/uduak-george-300x300.jpg",
+                "name": "Uduak George, Ph.D.",
+                "title": "Assistant Professor",
+                "introduction": "Dr. Uduak George is an assistant professor in the Department of Mathematics and Statistics. She holds a Ph.D. in mathematics from the University of Sussex in Brighton, United Kingdom, and a master's degree in computational mathematics with modeling from Brunel University in West London, United Kingdom. She had her postdoctoral research training at the University of Wisconsin-Milwaukee and North Carolina State University. Dr George is a mathematical biologist. Her areas of interest include computational fluid dynamics, biomechanics, parameter estimation, digital image processing and analysis, and numerical approximation of partial differential equations on fixed and evolving domains.",
+                "col4": "",
+                "col5": ""
+            }
+        ],
+        "publications": [
+            {
+                "content": "<p style=\"margin: 0px 0px 0px 48px; font-size: medium; font-family: &quot;Times New Roman&quot;, serif; white-space: normal; text-align: center;\"><strong><span style=\"font-size: 15px;font-family: Aptos, sans-serif;color: rgb(34, 34, 34)\">Project: Leveraging artificial intelligence/machine learning (AI/ML) to identify multi-level factors associated with detection of late-stage lung-cancer</span></strong></p><p style=\"margin: 0px 0px 0px 48px; font-size: medium; font-family: &quot;Times New Roman&quot;, serif; white-space: normal; text-align: center;\"><strong><span style=\"font-size: 15px;font-family: Aptos, sans-serif;color: rgb(34, 34, 34)\"><br/></span></strong></p><p style=\"margin: 0 0 0 48px;font-size: medium;font-family: &#39;Times New Roman&#39;, serif;white-space: normal\"><span style=\"font-size: 13px;font-family: Aptos, sans-serif;color: rgb(34, 34, 34)\">&nbsp; &nbsp; Lung cancer is the 2nd most diagnosed cancer in the United States for both men and women with about 234,580 new cases annually based on the most recent estimates. Lung cancer is the leading cause of cancer mortality for adults &gt;50 years, regardless of gender. Localized, or early-stage lung cancer, can be treated aggressively and result in better outcomes and better overall survival, compared to lung cancer detected at a later stage when it has likely migrated beyond the primary tumor and treatment options are more limited.&nbsp;</span></p><p style=\"margin: 0 0 0 48px;font-size: medium;font-family: &#39;Times New Roman&#39;, serif;white-space: normal\"><span style=\"font-size: 13px;font-family: Aptos, sans-serif;color: rgb(34, 34, 34)\">&nbsp; &nbsp; Routine screening for lung cancer via low-dose computed tomography supports early detection however it is not systematically utilized resulting in missed opportunities for early detection. Efforts to develop models for identifying and diagnosing lung cancer using AI/ML from screening data have been in development for over a decade, however, they fail to consider important context including: social determinants of health (SDOH) factors such as geography, environment, social, and similar which are critical to identify candidates whom, due to a lack of routine screening, were diagnosed at later stages. This project aims to leverage artificial intelligence/machine learning (AI/ML) to identify multi-level factors associated with detection of late-stage lung-cancer especially in underserved populations.</span></p><p><br/></p>"
+            }
+
+        ]
+    },
+    "footer": {
+        "item1": "AIM-AHEAD Program",
+        "item1Link": "https://www.aim-ahead.net/",
+        "item2": "AI Readiness (PAIR)",
+        "item2Link": "https://www.aim-ahead.net/call-for-proposals-year-2/pair/",
+        "item3": "SAN DIEGO STATE UNIVERSITY",
+        "item3Link": "https://www.sdsu.edu",
+        "copyright": "AIM-AHEAD Coordinating Center is funded by NIH, Agreement No.: 1OT2OD032581-01"
+    }
+}
