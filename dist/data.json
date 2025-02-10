@@ -87,7 +87,7 @@
         ],
         "FacultyList": [
             {
-                "avatar": "../../src/assets/view/rebecca-mattson-300.jpg",
+                "avatar": "../../src/assets/view/avatar1.png",
                 "name": "Rebecca Mattson, PhD, R.N., PHN,",
                 "title": "Assistant Professor of Nursing",
                 "introduction": "Rebecca Mattson, PhD, R.N., PHN, is an Assistant Professor of Nursing at San Diego State University. She is committed to advancing health equity, integrating technology into healthcare, and improving outcomes for underserved populations. Her work spans maternal-child health, cancer care, and culturally responsive practices, focusing on innovative, evidence-based solutions.\n",
@@ -95,7 +95,7 @@
                 "col5": ""
             },
             {
-                "avatar": "../../src/assets/view/melody-schiaffino-300.jpg",
+                "avatar": "../../src/assets/view/avatar2.png",
                 "name": "Melody K. Schiaffino, Ph.D., MPH",
                 "title": "Associate Professor",
                 "introduction": "Melody K Schiaffino, Ph.D, MPH, is an associate professor at the School of Public Health and the co-director of the Cancer Health Equity & AI Research Lab at San Diego State University. Dr. Schiaffino is the inaugural Associate Director of UCSD Moores Cancer Center for Equity, Diversity, and Inclusion and a fellow of the PRIDE Scholars for Research in Implementation Science and Equity (RISE) at UCSF (Cohort 9). Dr. Schiaffino is a recipient of the National Institute of Health’s National Institute on Aging K01 Career Development Award.\n",
@@ -103,7 +103,7 @@
                 "col5": ""
             },
             {
-                "avatar": "../../src/assets/view/uduak-george-300x300.jpg",
+                "avatar": "../../src/assets/view/avatar3.png",
                 "name": "Uduak George, Ph.D.",
                 "title": "Assistant Professor",
                 "introduction": "Dr. Uduak George is an assistant professor in the Department of Mathematics and Statistics. She holds a Ph.D. in mathematics from the University of Sussex in Brighton, United Kingdom, and a master's degree in computational mathematics with modeling from Brunel University in West London, United Kingdom. She had her postdoctoral research training at the University of Wisconsin-Milwaukee and North Carolina State University. Dr George is a mathematical biologist. Her areas of interest include computational fluid dynamics, biomechanics, parameter estimation, digital image processing and analysis, and numerical approximation of partial differential equations on fixed and evolving domains.",
